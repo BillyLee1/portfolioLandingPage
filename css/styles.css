@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background-color: #E1D9CF;
+  max-width: 1460px;
+}
+
+.title {
+  text-align: center;
+  border: 6px outset;
+  font-size: 70px;
+  width: 400px;
+  margin: 0 auto;
+}
