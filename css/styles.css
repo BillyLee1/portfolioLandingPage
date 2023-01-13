@@ -12,13 +12,14 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .project {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   text-align: center;
-}
-
-.project p {
-  border: 1px black solid;
 }
