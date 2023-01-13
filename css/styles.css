@@ -21,8 +21,18 @@ body {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
+  background-color: rgb(239, 203, 191);
+  max-width: 30%;
+  height: 300px;
+}
+.project p {
   text-align: center;
 }
+
+.project h2 {
+  text-align: center;
+}
+
 .aboutMe {
   padding: 10px 0 0 45%;
 }
