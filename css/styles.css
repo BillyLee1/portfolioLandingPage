@@ -23,6 +23,9 @@ body {
   padding: 10px;
   text-align: center;
 }
+.aboutMe {
+  padding: 10px 0 0 45%;
+}
 
 .biography {
   display: flex;
