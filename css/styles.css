@@ -23,3 +23,15 @@ body {
   padding: 10px;
   text-align: center;
 }
+
+.biography {
+  display: flex;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.biography img{
+  max-width: 300px;
+  max-height: 300px;
+  float: right;
+}
