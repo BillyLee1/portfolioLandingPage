@@ -37,6 +37,10 @@ body {
   color:purple;
 }
 
-.container {
+.container-fluid {
   margin: 20px;
+}
+
+.card-img-top {
+  border-bottom: 4px #E1D9CF solid;
 }
