@@ -1,62 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Billy's Landing Page</title>
 </head>
 <body>
   <div class="title"><strong>Billy Lee</strong></div>
-  <div class="wrapper">
-    <div class="project">
-      <h2><a href="https://github.com/BillyLee1/my-first-webpage"><em>My First Webpage</em></a></h2>
-      <p>My first webpage is what the name describes. This is my first webpage I have built during my time at Epicodus. Within the repository lies favorite-things. Favorite-things is a web page I built to describe my favorite things and people using HTML and CSS. People including my parents, friends, and siblings. 
-        <br>
-        <br>
-        <strong>Skills I have learned from this project include:</strong>
-        <br>
-      </p>
-      <ul>
-        <li>Using ordered and unordered lists.</li>
-        <li>Displaying images.</li>
-        <li>Changing styling with inline html and using header tags.</li>
-        <li> how to style tags with CSS.</li>
-      </ul>
-      
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="img/firstwebsite.png" class="card-img-top" alt="Picture of my first website">
+                <div class="card-body">
+                  <h5 class="card-title"><em>My First Webpage</em></h5>
+                  <p class="card-text">My first webpage is what the name describes. This is my first webpage I have built during my time at Epicodus. Within the repository lies favorite-things. Favorite-things is a web page I built to describe my favorite things and people using HTML and CSS. People including my parents, friends, and siblings. 
+                    <br>
+                    <br>
+                    <strong>Skills I have learned from this project include:</strong>
+                    <br>
+                  </p>
+                  <ul>
+                    <li>Using ordered and unordered lists.</li>
+                    <li>Displaying images.</li>
+                    <li>Changing styling with inline html and using header tags.</li>
+                    <li> how to style tags with CSS.</li>
+                  </ul></p>
+                  <a href=""https://github.com/BillyLee1/my-first-webpage"" class="btn btn-primary">Github Repository</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="img/cupcake.png" class="card-img-top" alt="Picture of cupcake website">
+                <div class="card-body">
+                  <h5 class="card-title"><em>Cup Cake Webpage</em></h5>
+                  <p class="card-text">My cupcake webpage is a display of my group’s favorite cupcakes from our imaginary shop using HTML and CSS. A simple website with pictures of our favorite cupcakes. 
+                    <br>
+                    <br>
+                    <strong>Skills I have learned from this project include:</strong>
+                    <br>
+                  </p>
+                  <ul>
+                    <li>Usage of classes</li>
+                    <li>Usage of IDs</li>
+                    <li>Usage of span tags</li>
+                    <li>Greater understanding of HTML and CSS</li>
+                  </ul></p>
+                  <a href="https://github.com/BillyLee1/cupCakeWebpage" class="btn btn-primary">Github Repository</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <img src="img/evie.png" class="card-img-top" alt="Picture of Evie's website">
+                <div class="card-body">
+                  <h5 class="card-title"><em>Evie's Webpage</em></h5>
+                  <p class="card-text">Evie’s webpage is the first web page I created using HTML without any hand holding from Epicodus. The web page includes details about my dog Evie including her favorite treats, activities, and a tiny bio about her. 
+                    <br>
+                    <br>
+                    <strong>Skills I have learned from this project include:</strong>
+                  </p>
+                  <ul>
+                    <li>An understanding of HTML and CSS.</li>
+                    <li>Learning how block elements work in HTML</li>
+                    <li>Displaying images</li>
+                    <li>Using ordered and unordered lists</li>
+                  </ul></p>
+                  <a href="https://github.com/BillyLee1/pet-website" class="btn btn-primary">Github Repository</a>
+                </div>
+              </div>
+        </div>
     </div>
-
-    <div class="project">
-      <h2><a href="https://github.com/BillyLee1/cupCakeWebpage"><em>Cup Cake Webpage</em></a></h2>
-      <p>My cupcake webpage is a display of my group’s favorite cupcakes from our imaginary shop using HTML and CSS. A simple website with pictures of our favorite cupcakes. 
-        <br>
-        <br>
-        <strong>Skills I have learned from this project include:</strong>
-        <br>
-      </p>
-      <ul>
-        <li>Usage of classes</li>
-        <li>Usage of IDs</li>
-        <li>Usage of span tags</li>
-        <li>Greater understanding of HTML and CSS</li>
-      </ul>
-    </div>
-
-    <div class="project">
-      <h2><a href="https://github.com/BillyLee1/pet-website"><em>Evie's Webpage</em></a></h2>
-      <p>Evie’s webpage is the first web page I created using HTML without any hand holding from Epicodus. The web page includes details about my dog Evie including her favorite treats, activities, and a tiny bio about her. 
-        <br>
-        <br>
-        <strong>Skills I have learned from this project include:</strong>
-      </p>
-      <ul>
-        <li>An understanding of HTML and CSS.</li>
-        <li>Learning how block elements work in HTML</li>
-        <li>Displaying images</li>
-        <li>Using ordered and unordered lists</li>
-      </ul>
-    </div>
+</div>
+    
   </div>
+  
   <h2 class="aboutMe">About me :)</h2>
-
   <div class="biography">
     <h4>Hey! I’m Billy and I’m from Seattle, Washington. I went to the <span id="uw">University of Washington</span> and majored in Public Health. I'm a public health professional and an aspiring developer. Currently, I work at a biotech company that performs innovative cancer testing. Prior to that, I worked at a non-profit HIV clinic. While working in the public health/ biology field, I learned that I am passionate about the wellbeing of our community, but was not fond of the mental turmoil that came with the role. I took a step back and re-evaluated my values surrounding public health. Development came to mind as there are many opportunities for me to contribute to public health while not being in the front lines. Currently, I am in the process of switching careers! Creating apps, webpages, and software for public health is my end goal.
     <br>
@@ -68,11 +88,60 @@
     A ranking of my top 3 songs that nobody asked for:
     <ol>
       <li>Snooze by SZA</li>
-      <li>Puffin' on Zooties by Future</li>
+      <li>PUFFIN ON ZOOTIEZ by Future</li>
       <li>Tell Me It's Over by Jacquees, Feat. Summer Walker and 6LACK</li>
     </ol>
     </h4>
     <img src="img/pp.png" alt="Picture of Billy">
   </div>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
+
+
+<!-- <div class="wrapper">
+  <div class="project">
+    <h2><a href="https://github.com/BillyLee1/my-first-webpage"><em>My First Webpage</em></a></h2>
+    <p>My first webpage is what the name describes. This is my first webpage I have built during my time at Epicodus. Within the repository lies favorite-things. Favorite-things is a web page I built to describe my favorite things and people using HTML and CSS. People including my parents, friends, and siblings. 
+      <br>
+      <br>
+      <strong>Skills I have learned from this project include:</strong>
+      <br>
+    </p>
+    <ul>
+      <li>Using ordered and unordered lists.</li>
+      <li>Displaying images.</li>
+      <li>Changing styling with inline html and using header tags.</li>
+      <li> how to style tags with CSS.</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h2><a href="https://github.com/BillyLee1/cupCakeWebpage"><em>Cup Cake Webpage</em></a></h2>
+    <p>My cupcake webpage is a display of my group’s favorite cupcakes from our imaginary shop using HTML and CSS. A simple website with pictures of our favorite cupcakes. 
+      <br>
+      <br>
+      <strong>Skills I have learned from this project include:</strong>
+      <br>
+    </p>
+    <ul>
+      <li>Usage of classes</li>
+      <li>Usage of IDs</li>
+      <li>Usage of span tags</li>
+      <li>Greater understanding of HTML and CSS</li>
+    </ul>
+  </div>
+  <div class="project">
+    <h2><a href="https://github.com/BillyLee1/pet-website"><em>Evie's Webpage</em></a></h2>
+    <p>Evie’s webpage is the first web page I created using HTML without any hand holding from Epicodus. The web page includes details about my dog Evie including her favorite treats, activities, and a tiny bio about her. 
+      <br>
+      <br>
+      <strong>Skills I have learned from this project include:</strong>
+    </p>
+    <ul>
+      <li>An understanding of HTML and CSS.</li>
+      <li>Learning how block elements work in HTML</li>
+      <li>Displaying images</li>
+      <li>Using ordered and unordered lists</li>
+    </ul>
+  </div>
+</div> -->
