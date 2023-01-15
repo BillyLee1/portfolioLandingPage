@@ -13,7 +13,7 @@
 
 ## Description
 
-_Billy's landing page for portfolio. Website displays three recent projects along with an about me section. This webpage is written in HTML and CSS. Bootstrap is implemented for the project cards. Buttons are used to create links to Billy's github repository. _
+_Billy's landing page for portfolio. Website displays three recent projects along with an about me section. This webpage is written in HTML and CSS. Bootstrap is implemented for the project cards. Buttons are used to create links to Billy's github repository._
 
 ## Setup/Installation Requirements
 
