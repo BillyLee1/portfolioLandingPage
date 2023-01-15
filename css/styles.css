@@ -44,3 +44,7 @@ body {
 .card-img-top {
   border-bottom: 4px #E1D9CF solid;
 }
+
+.col-sm img {
+  max-height: 400px;
+}
