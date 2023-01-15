@@ -35,12 +35,17 @@ body {
 
 .aboutMe {
   text-align: center;
+  font-weight: bold;
 }
 
 .biography {
   display: flex;
   width: 80%;
   padding-left: 10%;
+}
+
+.biography h4 {
+  font-size: medium;
 }
 
 .biography img{
@@ -51,4 +56,8 @@ body {
 
 #uw {
   color:purple;
+}
+
+.container {
+  margin: 20px;
 }
